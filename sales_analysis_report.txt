@@ -1,0 +1,65 @@
+SALES DATA ANALYSIS REPORT
+CodeOrbit Internship - Task 2
+
+1. OBJECTIVE
+The objective of this project is to analyze sales data using Pandas and identify important sales trends and business insights.
+
+2. DATASET
+The dataset contains sales transaction records including:
+- Order ID
+- Order Date
+- Customer details
+- Region
+- Category
+- Product
+- Sales
+- Quantity
+- Discount
+- Profit
+
+3. DATA CLEANING AND PREPARATION
+- Loaded the dataset using Pandas.
+- Checked dataset shape and information.
+- Checked missing values.
+- Checked duplicate records.
+- Converted Order Date into datetime format.
+- Created Year-Month and Year fields for time-based analysis.
+
+4. KEY METRICS
+The analysis calculates:
+- Total Sales
+- Total Orders
+- Average Order Value (AOV)
+- Total Quantity Sold
+- Total Profit
+
+5. PRODUCT ANALYSIS
+Products were grouped and ranked according to their total sales.
+The Top 10 products by sales were identified.
+
+6. CATEGORY ANALYSIS
+Sales, quantity, profit and number of orders were analyzed for each product category.
+
+7. REGION ANALYSIS
+Sales, quantity, profit and number of orders were grouped by region to compare regional performance.
+
+8. TIME-BASED ANALYSIS
+Monthly and yearly sales were calculated to identify changes in sales performance over time.
+
+9. KEY FINDINGS
+The Python analysis script automatically identifies:
+- Highest-selling product
+- Highest-selling category
+- Highest-selling region
+- Month with highest sales
+- Year with highest sales
+
+10. TOOLS USED
+- Python
+- Pandas
+- Excel
+- VS Code
+
+11. CONCLUSION
+Pandas was used to perform sales data analysis and generate meaningful summaries based on products,
+ categories, regions and time periods. The analysis results were exported to an Excel workbook for further review.
